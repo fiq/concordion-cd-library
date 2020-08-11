@@ -1,0 +1,42 @@
+# Bytecode and intermediary folders + random
+.class
+.gradle
+build/
+target/
+.settings/
+.classpath
+.project
+target/
+out/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+## Dagger2
+src/main/generated
+src/test/generated_tests
+
