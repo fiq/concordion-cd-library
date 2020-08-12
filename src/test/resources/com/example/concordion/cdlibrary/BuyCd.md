@@ -3,7 +3,8 @@
 As a CD retailer I want purchases to be correctly processed
 so that music charts and inventory levels remain accurate.
 
-This is inspired by https://www.youtube.com/watch?v=nt2KKUSSJsY :
+This is inspired by a [CD warehouse example](https://www.youtube.com/watch?v=yvpikkOv0eU) 
+by Jason Gormon :
 ``Given a CD that's not in the Top 111 which we have in stock, 
 When the customer buys that CD
 Then one copy is deducted from CD's stock

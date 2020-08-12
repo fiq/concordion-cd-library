@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'groovy'
 group = 'com.example.concordion'
 version = '1.0-SNAPSHOT'
 sourceCompatibility = JavaVersion.VERSION_11
@@ -34,4 +35,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+        outputs.upToDateWhen { false }
+    }
 }
